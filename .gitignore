@@ -39,4 +39,5 @@ pids/
 
 # DBs
 .sqlite
+*.sqlite
 
