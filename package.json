@@ -1,0 +1,30 @@
+{
+  "name": "portfolio-backend",
+  "version": "1.0.0",
+  "description": "Microservicio de mensajeria para el apartado de contacto en mi portfolio https://sebastian-portfolio-git-main-sebas16608s-projects.vercel.app/index.html#contacto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sebas16608/portfolio-backend-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sebas16608/portfolio-backend-js/issues"
+  },
+  "homepage": "https://github.com/Sebas16608/portfolio-backend-js#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "morgan": "^1.10.1",
+    "sequelize": "^6.37.7",
+    "sqlite": "^5.1.1"
+  },
+  "devDependencies": {
+    "@types/morgan": "^1.9.10"
+  }
+}
