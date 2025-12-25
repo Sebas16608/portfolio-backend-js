@@ -23,11 +23,10 @@ const getMessageById = async (req, res) => {
 const postMessage = async (req, res) => {
     try {
         const { name, email, message } = req.body();
-        const msg = Mensaje.create( {name, email, message });
+        const msg = await Mensaje.create( {name, email, message });
         res.json(msg);
     } catch (err) {
         console.log(err);
         res.status(400).json({ error: "Bad Request"});
     };
 };
-
