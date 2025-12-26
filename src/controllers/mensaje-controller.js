@@ -1,3 +1,4 @@
+const { get } = require("../app");
 const Mensaje = require("../models/mensaje");
 
 const getAllMessages = async (req, res) => {
@@ -30,3 +31,5 @@ const postMessage = async (req, res) => {
         res.status(400).json({ error: "Bad Request"});
     };
 };
+
+module.exports = { getAllMessages, getMessageById, postMessage };
